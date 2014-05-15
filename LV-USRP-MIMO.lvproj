@@ -11,10 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Transport Layer" Type="Folder">
-			<Item Name="sub_UDP_Transmit.vi" Type="VI" URL="../sub_UDP_Transmit.vi"/>
+			<Item Name="UDP Rx.lvclass" Type="LVClass" URL="../Transport Layer/UDP Rx.lvclass"/>
 		</Item>
 		<Item Name="MIMO_RX.vi" Type="VI" URL="../MIMO_RX.vi"/>
-		<Item Name="UDP Rx.lvclass" Type="LVClass" URL="../Transport Layer/UDP Rx.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niUSRP Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Abort.vi"/>
@@ -406,9 +405,6 @@
 			<Item Name="sub_SDR_SyncSeqZC.vi" Type="VI" URL="../sub_SDR_SyncSeqZC.vi"/>
 			<Item Name="sub_USRP_init_Rx.vi" Type="VI" URL="../sub_USRP_init_Rx.vi"/>
 			<Item Name="Translate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Translate Error.vi"/>
-			<Item Name="UDP Rx.lvclass" Type="LVClass" URL="../../GPS_TxRx_Test/Transport Layer/UDP Rx.lvclass"/>
-			<Item Name="UDP.ctl" Type="VI" URL="../Transport Layer/UDP.lvclass/UDP.ctl"/>
-			<Item Name="UDP.lvclass" Type="LVClass" URL="../Transport Layer/UDP.lvclass"/>
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="Untranslate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Untranslate Error.vi"/>
 			<Item Name="VariableType.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/SymbolTable/VariableType.ctl"/>
