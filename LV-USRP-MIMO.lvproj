@@ -10,11 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+<<<<<<< HEAD
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Synchronizer.lvclass" Type="LVClass" URL="../Synchronizer/Synchronizer.lvclass"/>
+=======
+		<Item Name="Synchronizer" Type="Folder">
+			<Item Name="Synchronizer.lvclass" Type="LVClass" URL="../Synchronizer/Synchronizer.lvclass"/>
+		</Item>
+		<Item Name="Transport Layer" Type="Folder">
+>>>>>>> 0467fca54fa91dfe4bb42566fd9443d0d24bf555
 			<Item Name="UDP Rx.lvclass" Type="LVClass" URL="../Transport Layer/UDP Rx.lvclass"/>
+			<Item Name="UDP Tx.lvclass" Type="LVClass" URL="../Transport Layer/UDP Tx.lvclass"/>
 		</Item>
 		<Item Name="MIMO_RX.vi" Type="VI" URL="../MIMO_RX.vi"/>
+		<Item Name="MIMO_TX.vi" Type="VI" URL="../MIMO_TX.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niUSRP Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Abort.vi"/>
@@ -32,8 +41,16 @@
 				<Item Name="niUSRP Get Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Get Error.vi"/>
 				<Item Name="niUSRP Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Initiate.vi"/>
 				<Item Name="niUSRP Open Rx Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Open Rx Session.vi"/>
+				<Item Name="niUSRP Open Tx Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Open Tx Session.vi"/>
 				<Item Name="niUSRP Set Time.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Set Time.vi"/>
 				<Item Name="niUSRP Timestamp.ctl" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Timestamp.ctl"/>
+				<Item Name="niUSRP Write Tx Data (2D CDB).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (2D CDB).vi"/>
+				<Item Name="niUSRP Write Tx Data (2D I16).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (2D I16).vi"/>
+				<Item Name="niUSRP Write Tx Data (CDB Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (CDB Cluster).vi"/>
+				<Item Name="niUSRP Write Tx Data (CDB WDT).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (CDB WDT).vi"/>
+				<Item Name="niUSRP Write Tx Data (CDB).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (CDB).vi"/>
+				<Item Name="niUSRP Write Tx Data (I16).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (I16).vi"/>
+				<Item Name="niUSRP Write Tx Data (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Write Tx Data (poly).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -44,11 +61,14 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape XML.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Escape XML.vi"/>
 				<Item Name="EscapeChars.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/EscapeChars.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_BuildTextVarProps.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/BuildTextBlock.llb/ex_BuildTextVarProps.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
@@ -90,6 +110,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="UDP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Get Raw Net Object.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -316,21 +337,44 @@
 			<Item Name="sub_SDR_demod_QAM4.vi" Type="VI" URL="../sub_SDR_demod_QAM4.vi"/>
 			<Item Name="sub_SDR_demod_QAM16.vi" Type="VI" URL="../sub_SDR_demod_QAM16.vi"/>
 			<Item Name="sub_SDR_demod_QAM64.vi" Type="VI" URL="../sub_SDR_demod_QAM64.vi"/>
+			<Item Name="sub_SDR_mimo_AddPilots.vi" Type="VI" URL="../sub_SDR_mimo_AddPilots.vi"/>
 			<Item Name="sub_SDR_mimo_DemuxPorts.vi" Type="VI" URL="../sub_SDR_mimo_DemuxPorts.vi"/>
 			<Item Name="sub_SDR_mimo_equalizer.vi" Type="VI" URL="../sub_SDR_mimo_equalizer.vi"/>
+			<Item Name="sub_SDR_mimo_MuxPorts.vi" Type="VI" URL="../sub_SDR_mimo_MuxPorts.vi"/>
 			<Item Name="sub_SDR_mimo_RemovePilots.vi" Type="VI" URL="../sub_SDR_mimo_RemovePilots.vi"/>
 			<Item Name="sub_SDR_mimo_rx.vi" Type="VI" URL="../sub_SDR_mimo_rx.vi"/>
 			<Item Name="sub_SDR_mimo_SNR_Pilots.vi" Type="VI" URL="../sub_SDR_mimo_SNR_Pilots.vi"/>
+<<<<<<< HEAD
+=======
+			<Item Name="sub_SDR_mimo_Synchronizer.vi" Type="VI" URL="../sub_SDR_mimo_Synchronizer.vi"/>
+			<Item Name="sub_SDR_mimo_tx.vi" Type="VI" URL="../sub_SDR_mimo_tx.vi"/>
+			<Item Name="sub_SDR_mod.vi" Type="VI" URL="../sub_SDR_mod.vi"/>
+>>>>>>> 0467fca54fa91dfe4bb42566fd9443d0d24bf555
 			<Item Name="sub_SDR_mod_BPSK2QAM16.vi" Type="VI" URL="../sub_SDR_mod_BPSK2QAM16.vi"/>
 			<Item Name="sub_SDR_mod_BPSK2QAM64.vi" Type="VI" URL="../sub_SDR_mod_BPSK2QAM64.vi"/>
+			<Item Name="sub_SDR_mod_BPSK_To_4QAM.vi" Type="VI" URL="../sub_SDR_mod_BPSK_To_4QAM.vi"/>
+			<Item Name="sub_SDR_mod_stringToBPSK.vi" Type="VI" URL="../sub_SDR_mod_stringToBPSK.vi"/>
 			<Item Name="sub_SDR_rx_ApplyMatchedFilter.vi" Type="VI" URL="../sub_SDR_rx_ApplyMatchedFilter.vi"/>
 			<Item Name="sub_SDR_rx_calcRxSamples.vi" Type="VI" URL="../sub_SDR_rx_calcRxSamples.vi"/>
 			<Item Name="sub_SDR_rx_PacketSynch.vi" Type="VI" URL="../sub_SDR_rx_PacketSynch.vi"/>
+<<<<<<< HEAD
+=======
+			<Item Name="sub_SDR_SyncSeqZC.vi" Type="VI" URL="../sub_SDR_SyncSeqZC.vi"/>
+			<Item Name="sub_SDR_tx_ApplyShappingFilter.vi" Type="VI" URL="../sub_SDR_tx_ApplyShappingFilter.vi"/>
+			<Item Name="sub_SDR_tx_GenerateFramePayload.vi" Type="VI" URL="../sub_SDR_tx_GenerateFramePayload.vi"/>
+			<Item Name="sub_UDP_Transmit.vi" Type="VI" URL="../sub_UDP_Transmit.vi"/>
+			<Item Name="sub_USRP_close_Tx.vi" Type="VI" URL="../sub_USRP_close_Tx.vi"/>
+>>>>>>> 0467fca54fa91dfe4bb42566fd9443d0d24bf555
 			<Item Name="sub_USRP_init_Rx.vi" Type="VI" URL="../sub_USRP_init_Rx.vi"/>
+			<Item Name="sub_USRP_init_Tx.vi" Type="VI" URL="../sub_USRP_init_Tx.vi"/>
 			<Item Name="Translate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Translate Error.vi"/>
+			<Item Name="UDP_read_receive_buffer.vi" Type="VI" URL="../UDP_read_receive_buffer.vi"/>
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="Untranslate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Untranslate Error.vi"/>
 			<Item Name="VariableType.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/SymbolTable/VariableType.ctl"/>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
