@@ -339,7 +339,6 @@
 			<Item Name="sub_SDR_mimo_RemovePilots.vi" Type="VI" URL="../sub_SDR_mimo_RemovePilots.vi"/>
 			<Item Name="sub_SDR_mimo_rx.vi" Type="VI" URL="../sub_SDR_mimo_rx.vi"/>
 			<Item Name="sub_SDR_mimo_SNR_Pilots.vi" Type="VI" URL="../sub_SDR_mimo_SNR_Pilots.vi"/>
-			<Item Name="sub_SDR_mimo_Synchronizer.vi" Type="VI" URL="../sub_SDR_mimo_Synchronizer.vi"/>
 			<Item Name="sub_SDR_mimo_tx.vi" Type="VI" URL="../sub_SDR_mimo_tx.vi"/>
 			<Item Name="sub_SDR_mod.vi" Type="VI" URL="../sub_SDR_mod.vi"/>
 			<Item Name="sub_SDR_mod_BPSK2QAM16.vi" Type="VI" URL="../sub_SDR_mod_BPSK2QAM16.vi"/>
@@ -349,10 +348,8 @@
 			<Item Name="sub_SDR_rx_ApplyMatchedFilter.vi" Type="VI" URL="../sub_SDR_rx_ApplyMatchedFilter.vi"/>
 			<Item Name="sub_SDR_rx_calcRxSamples.vi" Type="VI" URL="../sub_SDR_rx_calcRxSamples.vi"/>
 			<Item Name="sub_SDR_rx_PacketSynch.vi" Type="VI" URL="../sub_SDR_rx_PacketSynch.vi"/>
-			<Item Name="sub_SDR_SyncSeqZC.vi" Type="VI" URL="../sub_SDR_SyncSeqZC.vi"/>
 			<Item Name="sub_SDR_tx_ApplyShappingFilter.vi" Type="VI" URL="../sub_SDR_tx_ApplyShappingFilter.vi"/>
 			<Item Name="sub_SDR_tx_GenerateFramePayload.vi" Type="VI" URL="../sub_SDR_tx_GenerateFramePayload.vi"/>
-			<Item Name="sub_UDP_Transmit.vi" Type="VI" URL="../sub_UDP_Transmit.vi"/>
 			<Item Name="sub_USRP_close_Tx.vi" Type="VI" URL="../sub_USRP_close_Tx.vi"/>
 			<Item Name="sub_USRP_init_Rx.vi" Type="VI" URL="../sub_USRP_init_Rx.vi"/>
 			<Item Name="sub_USRP_init_Tx.vi" Type="VI" URL="../sub_USRP_init_Tx.vi"/>
