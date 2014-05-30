@@ -53,10 +53,14 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+<<<<<<< HEAD
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+=======
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+>>>>>>> rx
 	</Item>
 	<Item Name="synchronize.vi" Type="VI" URL="../synchronize.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'H!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#52F&gt;'6D&gt;'6E0Q!&amp;!!U!!#*!1!!#``````````]!"2&amp;3:7.F;8:F:#"E982B)'^V&gt;!!S1(!!(A!!&amp;B24?7ZD;(*P&lt;GF[:8)O&lt;(:D&lt;'&amp;T=Q!!%&amp;.Z&lt;G.I=G^O;8JF=C"P&gt;81!!"&amp;!!Q!+4G6Y&gt;%^G:H.F&gt;!!!%U!$!!V1:7&amp;L)&amp;"P=WFU;7^O!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!$1!(4H6N:8*J9Q!C1%!!!P``````````!!Q25G6D:7FW:71A:H*B&lt;75A37Y!-%"Q!"Y!!"955XFO9WBS&lt;WZJ?G6S,GRW9WRB=X-!!!^4?7ZD;(*P&lt;GF[:8)A;7Y!6!$Q!!Q!!Q!%!!9!"Q!)!!E!#A!+!!M!#A!.!!Y$!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!#1!!!!E!!!!!!!!!!!!!!!A!!!!!!!!##!!!!*!!!!!!!1!0!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'E!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#52F&gt;'6D&gt;'6E0Q!.1!U!"UZV&lt;76S;7-!*%"!!!,``````````Q!&amp;%F*F9W6J&gt;G6E)':S97VF)%^V&gt;!!!-E"Q!"Y!!"955XFO9WBS&lt;WZJ?G6S,GRW9WRB=X-!!""4?7ZD;(*P&lt;GF[:8)A&lt;X6U!!!21!-!#EZF?(20:G:T:81!!".!!Q!.5'6B;S"1&lt;X.J&gt;'FP&lt;A!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!C1%!!!P``````````!!525G6D:7FW:71A:H*B&lt;75A37Y!-%"Q!"Y!!"955XFO9WBS&lt;WZJ?G6S,GRW9WRB=X-!!!^4?7ZD;(*P&lt;GF[:8)A;7Y!6!$Q!!Q!!Q!%!!9!"Q!)!!E!#A!+!!M!#A!-!!U$!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!#1!!!!E!!!!!!!!!!!!!!!A!!!!!!!!##!!!!*!!!!!!!1!/!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
